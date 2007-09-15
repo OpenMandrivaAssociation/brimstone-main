@@ -3,7 +3,7 @@
 
 Name:           brimstone-main
 Version:        0.1.20
-Release:        %mkrel 0.0.1
+Release:        %mkrel 0.0.2
 Epoch:          0
 Summary:        org.freecompany.brimstone
 License:        MIT
@@ -25,8 +25,6 @@ BuildRequires:  jpackage-utils >= 0:1.6
 BuildRequires:  junit
 BuildRequires:  yacli
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildRequires:  java-devel
