@@ -3,7 +3,7 @@
 
 Name:           brimstone-main
 Version:        0.1.20
-Release:        %mkrel 0.0.3
+Release:        %mkrel 0.0.4
 Epoch:          0
 Summary:        org.freecompany.brimstone
 License:        MIT
